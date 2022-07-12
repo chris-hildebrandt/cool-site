@@ -49,12 +49,21 @@ p {
   padding: 1em;
 }
 
+.p2 {
+  padding: 1.5em;
+}
+
+.p3 {
+  padding: 2.5em;
+}
+
 .d-flex {
   display: flex;
 }
 
 .p-box {
-  width: 30%;
+  width: 25%;
+  margin-left: 8em;
 }
 
 .justify-end {

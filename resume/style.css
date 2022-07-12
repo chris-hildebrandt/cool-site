@@ -1,0 +1,68 @@
+:root {
+  --bg-color: rgb(52, 52, 192);
+  --bg-color-lght: lightblue;
+
+}
+
+img {
+  max-width: 40%;
+  justify-items: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+footer {
+  height: 24px;
+  background-color: var(--bg-color);
+  border-top: 2px solid black;
+}
+
+.title {
+  background-color: var(--bg-color);
+  color: whitesmoke;
+  border-bottom: 2px solid black;
+  justify-content: center;
+}
+
+p {
+  max-width: 25em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.right {
+  justify-content: center;
+  align-items: right;
+}
+
+.banner {
+  background-color: var(--bg-color-lght);
+  height: 16px;
+  max-width: 30em;
+}
+
+.p1 {
+  padding: 1em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-box {
+  width: 30%;
+}
+
+.justify-end {
+  justify-content: right;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
